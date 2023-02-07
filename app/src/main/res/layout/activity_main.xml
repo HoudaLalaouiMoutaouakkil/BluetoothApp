@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+    <TextView
+        android:id="@+id/statusBluetoothTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="60dp"
+        android:text="Bluetooth is available"
+        android:textAlignment="center"
+        android:textSize="30sp"
+
+        android:textColor="#000"
+        />
+    <ImageView
+        android:id="@+id/bluetoothIv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/img" />
+
+    <Button
+        android:id="@+id/onBtn"
+        android:minWidth="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turn On"/>
+    <Button
+        android:id="@+id/offBtn"
+        android:minWidth="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turn Off"/>
+    <Button
+        android:id="@+id/discoverableBtn"
+        android:minWidth="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Discoverable"/>
+    <Button
+        android:id="@+id/pairedBtn"
+        android:minWidth="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Paired Device"/>
+    <TextView
+        android:id="@+id/pairedTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#000"
+        android:minWidth="200dp"
+        />
+
+
+</LinearLayout>
